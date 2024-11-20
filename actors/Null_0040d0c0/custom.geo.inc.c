@@ -1,0 +1,11 @@
+#include "custom.model.inc.h"
+const GeoLayout Null_geo_0040d0c0[]= {
+GEO_CULLING_RADIUS(4000),
+GEO_OPEN_NODE(),
+GEO_SHADOW(0,123,96),
+GEO_OPEN_NODE(),
+GEO_DISPLAY_LIST(1,DL_Null_geo_0040d0c0_0x372920),
+GEO_CLOSE_NODE(),
+GEO_CLOSE_NODE(),
+GEO_END(),
+};
