@@ -7,9 +7,9 @@ function on_hud_render_behind()
     -- Hide Hud
     hud_hide()
     if charSelect then
-        charSelect.hudHideElement(HUD_DISPLAY_FLAG_LIVES)
-        charSelect.hudHideElement(HUD_DISPLAY_FLAG_STAR_COUNT)
-        charSelect.hudHideElement(HUD_DISPLAY_FLAG_CAMERA)
+        charSelect.hud_hide_element(HUD_DISPLAY_FLAG_LIVES)
+        charSelect.hud_hide_element(HUD_DISPLAY_FLAG_STAR_COUNT)
+        charSelect.hud_hide_element(HUD_DISPLAY_FLAG_CAMERA)
     end
 
     -- New Hud
